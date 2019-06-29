@@ -1,0 +1,23 @@
+.navigation {
+  padding: 1rem;
+  display: flex;
+
+  &__logo {
+    margin-right: auto;
+  }
+
+  &__menu {
+
+  }
+
+  &__item {
+    display: inline-block;
+    &:not(:first-child) {
+      margin-left: 1rem;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+}

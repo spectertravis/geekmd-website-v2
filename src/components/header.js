@@ -1,25 +1,19 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
-
-const Header = ({ siteTitle }) => (
-  <header>
-    <div>
-      <h1>
-        <Link to="/" >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+import GeekMDIcon from "./../images/logos/geek_md_icon.svg"
+const Header = () => (
+  <header className="header">
+      <div className="header__content">
+          <img className="header__icon" src={GeekMDIcon} alt="GeekMD Icon"/>
+          <div className="header__cta-text">
+              <h1 className="heading-primary">
+                  The Future of Health Care is Open Source. We are better, together.
+                  <span className="header__subtext">
+                      HTTP/2 | gRPC | Protocol Buffers
+                  </span>
+              </h1>
+          </div>
+      </div>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
