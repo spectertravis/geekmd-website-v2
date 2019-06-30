@@ -13,17 +13,17 @@ const Header = () => (
                   <span className="header__subtext">
                       <a
                           href="https://en.wikipedia.org/wiki/HTTP/2"
-                          alt="Link to HTTP/2 Wiki Entry">
+                          title="Link to HTTP/2 Wiki Entry">
                           HTTP/2
                       </a>{' | '}
                       <a
                           href="https://developers.google.com/protocol-buffers/"
-                          alt="Link to Protocol Buffers Page">
+                          title="Link to Protocol Buffers Page">
                           Protocol Buffers
                       </a>{' | '}
                       <a
                           href="https://grpc.io/"
-                          alt="Link to gRPC website">
+                          title="Link to gRPC website">
                           gRPC
                       </a>
                   </span>

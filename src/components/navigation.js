@@ -8,7 +8,7 @@ const Navigation = () => {
         <nav className="navigation">
             <div className="navigation__container">
                 <div className="navigation__logo-text">
-                    <Link to="/" alt="Link to Home">
+                    <Link to="/" title="Link to Home">
                         <span className="font-geekMd-logo">Geek</span>
                         <span className="font-geekMd-logo--accented">MD</span>
                     </Link>
@@ -19,7 +19,7 @@ const Navigation = () => {
                             <a
                                 className="navigation__link"
                                 href="mailto:travis@geekmd.io"
-                                alt="Email Link">
+                                title="Email Link">
                                 <GoMail/>
                             </a>
                         </li>
@@ -27,7 +27,7 @@ const Navigation = () => {
                             <a
                                 className="navigation__link"
                                 href="https://github.com/geekmdtravis"
-                                alt="GeekMD GitHub Link">
+                                title="GeekMD GitHub Link">
                                 <GoMarkGithub/>
                             </a>
                         </li>
@@ -35,7 +35,7 @@ const Navigation = () => {
                             <a
                                 className="navigation__link"
                                 href="https://www.linkedin.com/in/travis-nesbit-953b70a4/"
-                                alt="LinkedIn Profile">
+                                title="LinkedIn Profile">
                                 <FaLinkedin/>
                             </a>
                         </li>
@@ -43,7 +43,7 @@ const Navigation = () => {
                             <a
                                 className="navigation__link"
                                 href="https://twitter.com/geekmdio"
-                                alt="Link to GeekMD Twitter">
+                                title="Link to GeekMD Twitter">
                                 <FaTwitter/>
                             </a>
                         </li>
