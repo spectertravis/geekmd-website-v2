@@ -12,11 +12,9 @@ import Navigation from "./navigation";
 import Footer from "./footer";
 
 const Layout = ({ children }) => {
-
   return (
     <div className="layout">
         <Navigation/>
-
         <main>{children}</main>
         <Footer/>
     </div>
