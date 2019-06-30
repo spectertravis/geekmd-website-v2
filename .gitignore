@@ -73,3 +73,6 @@ yarn-error.log
 
 # CSS
 .css*
+
+# IDE
+.idea/
