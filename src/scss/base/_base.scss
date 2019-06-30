@@ -14,3 +14,12 @@ html {
 body {
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+  color: darken($color-brand-blue, 10%);
+
+  &:hover {
+    color: $color-brand-blue;
+  }
+}

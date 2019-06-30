@@ -7,7 +7,6 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import Header from "./header"
 import "./layout.css"
 import Navigation from "./navigation";
 import Footer from "./footer";
@@ -15,7 +14,7 @@ import Footer from "./footer";
 const Layout = ({ children }) => {
 
   return (
-    <div>
+    <div className="layout">
         <Navigation/>
 
         <main>{children}</main>

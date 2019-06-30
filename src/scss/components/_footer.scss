@@ -2,8 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5rem;
+  padding: 0 1rem;
 
   &__content {
-
+    font-size: 1.3rem;
+    text-align: center;
+    color: $color-brand-grey;
   }
 }
