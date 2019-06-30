@@ -14,11 +14,19 @@
     @media only screen and(max-width: 127.5rem) {
       padding: 0 2rem;
     }
+
+    @media only screen and(max-height: 50rem) {
+      margin-top: 2rem;
+    }
   }
 
   &__icon-container {
     width: 70%;
     max-width: 25rem;
+
+    @media only screen and(max-height: 62.5rem) {
+      width: 50%;
+    }
   }
 
   &__icon {

@@ -147,9 +147,19 @@ a:hover {
     padding: 0 2rem;
   }
 }
+@media only screen and (max-height: 50rem) {
+  .header__content {
+    margin-top: 2rem;
+  }
+}
 .header__icon-container {
   width: 70%;
   max-width: 25rem;
+}
+@media only screen and (max-height: 62.5rem) {
+  .header__icon-container {
+    width: 50%;
+  }
 }
 .header__icon {
   width: 100%;
